@@ -195,6 +195,12 @@ module.exports = {
       ...theme('colors'),
       default: theme('colors.gray.300', 'currentColor'),
     }),
+    fill: theme => ({
+      'red': theme('colors.red.500'),
+      'green': theme('colors.green.500'),
+      'blue': theme('colors.blue.500'),
+      ...theme('colors'),
+    }),
     borderRadius: {
       none: '0',
       sm: '0.125rem',

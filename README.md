@@ -1,5 +1,8 @@
 # Linkedin Clone
 
+![desktop](/screenshots/desktop.png)
+![mobile](/screenshots/mobile.png)
+
 ## Project setup
 ```
 npm install
