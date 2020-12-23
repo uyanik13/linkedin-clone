@@ -1,6 +1,6 @@
 <template>
-  <header class="bg-white flex flex-row justify-center h-14">
-      <div class="container flex flex-row items-center justify-center ">
+  <header class="bg-white flex flex-row justify-center h-15 w-full z-40 lg:fixed  border-b border-gray-200">
+      <div class="container mx-auto px-6 h-16 flex justify-between items-center  ">
            <div id="logo" class="flex w-3/12">
               <div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" class="text-blue">
@@ -11,7 +11,7 @@
             <div>
               <input  class="p-2 ml-2 py-1 rounded-md border-none bg-gray-200 w-full" placeholder="Search"  aria-label="Search" type="text">
             </div>
-         </div>
+           </div>
 
           <nav class="w-5/12">
               <ul class="flex list-none pb-1 border-r-default border-gray-300  " >
@@ -23,7 +23,7 @@
                 </li>
                 <li class="mx-2" >
                     <div id="me" class="grid mt-2 text-secondary hover:text-gray-900 text-center">
-                      <img class="rounded-full w-6" src="https://media-exp1.licdn.com/dms/image/C4E35AQHYiObqT_uAOA/profile-framedphoto-shrink_100_100/0/1608036315334?e=1608728400&v=beta&t=ZFoJftkUVLoAdGOHeTAxTCFx2KYOXwRX3zZUT7GBvJQ" alt="Profile picture" />
+                      <img class="rounded-full w-6" src="https://media-exp1.licdn.com/dms/image/C4E35AQHYiObqT_uAOA/profile-framedphoto-shrink_100_100/0/1608036315334?e=1608818400&v=beta&t=ONPAGPISoh4aCtfvv8RIklxQaw-ZHYouZUJ75oGA6ns" alt="Profile picture" />
                       <span class="text-xs ">Me <font-awesome-icon  :icon="['fas', 'caret-down']" class="text-6"/></span>
                   </div>
                 </li>

@@ -1,5 +1,5 @@
 <template>
-<div class="grid lg:grid-cols-12 gap-x-0">
+<div class="grid lg:grid-cols-12 gap-x-0 pt-20">
     <div class="col-start-3 col-span-1 w-48 ">
         <left-sidebar />
     </div>
@@ -11,19 +11,19 @@
                 Start a post
             </button>
           <div class="flex items-center mt-3">
-            <button class="p-3">
+            <button class="p-3 flex ">
                 <font-awesome-icon :icon="['fas', 'image']" class="text-6 text-blue-500 mx-1"  />
                 Photo
             </button>
-            <button class="p-3">
+            <button class="p-3 flex">
                 <font-awesome-icon :icon="['fab', 'youtube']" class="text-6 text-red-500 mx-1"  />
                 Video
             </button>
-            <button class="p-3">
+            <button class="p-3 flex">
                 <font-awesome-icon :icon="['fas', 'calendar-week']" class="text-6 text-gray-500 mx-1"  />
                 Event
             </button>
-            <button class="p-3">
+            <button class="p-3 flex">
                 <font-awesome-icon :icon="['fas', 'newspaper']" class="text-6 text-red-300 mx-1"  />
                 Write Article
             </button>
@@ -33,7 +33,7 @@
         </div>
 
         <div v-for="post in posts" :key="post.id" class="bg-white my-2 w-full rounded-lg ">
-             <div id="action" class="flex flex items-center justify-between p-4 border-b-1  border-gray-300  ">
+             <div id="action" class="flex items-center justify-between p-4 border-b-1  border-gray-300  ">
                     <div class="text-xs">
                             <a href="#" class="text-gray-700 font-bold hover:text-blue-600 hover:underline">{{post.user.name}}</a> likes this
                     </div>
@@ -66,7 +66,7 @@
                     <div class="px-0">
                         <img :src="post.image" alt="">
                     </div> 
-                    <div id="action-2" class="flex flex items-center justify-start p-2 border-b-1  border-gray-300  ">
+                    <div id="action-2" class="flex items-center justify-start p-2 border-b-1  border-gray-300  ">
                         <button class="rounded-full w-8 h-8 hover:bg-theme1 hover:rounded-lg">
                                     <font-awesome-icon :icon="['fas', 'thumbs-up']" class="text-3 text-blue-500"   />
                         </button>
@@ -76,23 +76,23 @@
                            <a href="#" class=" text-gray-500 font-light hover:text-blue-600 hover:underline">{{post.likes}}</a> 
                            <a href="#" class="ml-2 text-gray-500 font-light hover:text-blue-600 hover:underline"> • {{post.comments.length}} comment</a> 
                     </div>
-                    <div id="action-3" class="flex flex items-center justify-start p-2 mx-2 my-4">
+                    <div id="action-3" class="flex items-center justify-start p-2 mx-2 my-4">
 
                          <button class="rounded-md w-16 h-8 hover:bg-theme1 flex items-center pl-2 pr-4 ">
                                     <font-awesome-icon :icon="['fas', 'thumbs-up']" class="text-5 text-gray-500"/> 
-                                    <p class="font-light text-sm text-gray-500 font-bold ml-1" >Like</p>
+                                    <p class=" text-sm text-gray-500 font-bold ml-1" >Like</p>
                         </button>
                         <button class="rounded-md w-24 h-8 hover:bg-theme1 flex items-center  pl-2 pr-4 ">
                                     <font-awesome-icon :icon="['fas', 'comment-dots']" class="text-5 text-gray-500"/> 
-                                    <p class="font-light text-sm text-gray-500 font-bold ml-1" >Comment</p>
+                                    <p class="text-sm text-gray-500 font-bold ml-1" >Comment</p>
                         </button>
                         <button class="rounded-md w-18 h-8 hover:bg-theme1 flex items-center  pl-2 pr-4 ">
                                     <font-awesome-icon :icon="['fas', 'share']" class="text-5 text-gray-500"/> 
-                                    <p class="font-light text-sm text-gray-500 font-bold ml-1" >Share</p>
+                                    <p class=" text-sm text-gray-500 font-bold ml-1" >Share</p>
                         </button>
                          <button class="rounded-md w-18 h-8 hover:bg-theme1 flex items-center  pl-2 pr-4 ">
                                     <font-awesome-icon :icon="['fas', 'location-arrow']" class="text-5 text-gray-500"/> 
-                                    <p class="font-light text-sm text-gray-500 font-bold ml-1" >Send</p>
+                                    <p class="text-sm text-gray-500 font-bold ml-1" >Send</p>
                         </button>
                      
                           
