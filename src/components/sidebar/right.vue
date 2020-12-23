@@ -1,5 +1,4 @@
 <template>
-<!-- /* eslint-disable */ -->
   <div>
      <div class="mr-6 w-full  flex-shrink-0 flex flex-col">
         <div class="bg-white my-2 pb-6 w-full justify-center items-center overflow-hidden md:max-w-sm rounded-lg shadow-sm mx-auto">
@@ -33,7 +32,7 @@
     <div class="mr-6 w-full  flex-shrink-0 flex flex-col">
       <div class="bg-white my-2 pb-6 w-full justify-center items-center overflow-hidden md:max-w-sm rounded-lg shadow-sm mx-auto">
         <div class="flex mt-0 px-2  items-center justify-between">
-          <p class="text-l text-secondary text-center px-2 py-2">
+          <p class="text-l text-secondary text-center px-2 py-2 sm:text-white ">
             Today’s most viewed courses
           </p>
             <font-awesome-icon :icon="['fas', 'info-circle']" class="text-3"  />

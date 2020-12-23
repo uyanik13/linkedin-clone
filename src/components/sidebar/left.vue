@@ -1,6 +1,4 @@
 <template>
-<!-- /* eslint-disable */ -->
-  <div class="flex flex-row justify-center ">
     <div class="bg-white my-2 pb-6 w-full justify-center items-center overflow-hidden md:max-w-sm rounded-lg shadow-sm mx-auto ">
       <div class="relative h-16 ">
         <img class="absolute h-full w-full object-cover" src="/assets/img/ogur-bg.jpg">
@@ -43,9 +41,6 @@
           </div>
       </div>
     </div>
-    
-  </div>
-
 </template>
 
 <script>

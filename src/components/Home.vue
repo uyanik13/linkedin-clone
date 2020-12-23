@@ -1,11 +1,11 @@
 <template>
-<div class="grid lg:grid-cols-12 gap-x-0 pt-20">
-    <div class="col-start-3 col-span-1 w-48 ">
+<div class="grid lg:grid-cols-12 gap-x-0 lg:pt-20 ">
+    <div class="col-start-3 col-span-1 w-48 hidden sm:hidden md:hidden lg:block ">
         <left-sidebar />
     </div>
 
-    <div class="col-start-4 col-end-7  w-full ml-16  "> 
-        <div class="bg-white my-2 p-4 w-full rounded-lg ">
+    <div class="col-start-4 col-end-7 w-full lg:ml-20"> 
+        <div class="bg-white lg:my-2 p-4 w-full rounded-lg ">
             <button class="p-3 rounded-full border-1 border-gray-300 bg-white w-full text-left flex items-center">
                 <font-awesome-icon :icon="['fas', 'pen-square']" class="text-6 text-gray-500 mx-2"  />
                 Start a post
@@ -105,7 +105,7 @@
        
     </div>
 
-    <div class="col-start-7 col-end-10 ml-32 ">
+    <div class="col-start-7 col-end-10 ml-32 hidden sm:hidden md:hidden lg:block ">
         <right-sidebar />
     </div>
 </div>

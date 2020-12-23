@@ -14,10 +14,10 @@ module.exports = {
   separator: ':',
   theme: {
     screens: {
-      sm: '640px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1280px',
+      'sm': '576px',
+      'md': '768px',
+      'lg': '992px',
+      'xl': '1200px',
     },
     colors: {
       transparent: 'transparent',
@@ -566,7 +566,7 @@ module.exports = {
     translate: ['responsive', 'hover', 'focus'],
     userSelect: ['responsive'],
     verticalAlign: ['responsive'],
-    visibility: ['responsive'],
+    visibility: ['hover', 'focus'],
     whitespace: ['responsive'],
     width: ['responsive'],
     wordBreak: ['responsive'],
