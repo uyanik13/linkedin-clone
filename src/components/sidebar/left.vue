@@ -1,10 +1,10 @@
 <template>
     <div class="bg-white my-2 pb-6 w-full justify-center items-center overflow-hidden md:max-w-sm rounded-lg shadow-sm mx-auto ">
       <div class="relative h-16 ">
-        <img class="absolute h-full w-full object-cover" src="/assets/img/ogur-bg.jpg">
+        <img class="absolute h-full w-full object-cover" src="https://media-exp1.licdn.com/dms/image/C4E16AQHD5wBdYMHg1w/profile-displaybackgroundimage-shrink_200_800/0/1604922684607?e=1614211200&v=beta&t=sLZR_H_vxMJDWetXGYOTszmNkxgiRwYBTtbg_Vlv0c0">
       </div>
       <div class="relative shadow mx-auto h-16 w-16 -my-12 rounded-full  overflow-hidden border-4 border-white ">
-        <img class="object-cover w-full h-full" src="/assets/img/ogur.jpg">
+        <img class="object-cover w-full h-full" src="https://media-exp1.licdn.com/dms/image/C4E35AQHYiObqT_uAOA/profile-framedphoto-shrink_100_100/0/1608036315334?e=1608897600&v=beta&t=ZfuH0JxNj8371c4V1Jj9NWvsgLWGALgBpC1IT-FQBFI">
       </div>
       <div class="mt-16 border-b-default border-gray-300">
         <h1 class="text-lg text-center text-primary ">
